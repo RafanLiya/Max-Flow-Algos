@@ -33,10 +33,10 @@ Each algorithm is implemented with clarity and efficiency in mind, and includes 
 - Time complexity: **O(V²E)** in general, **O(E√V)** for unit capacity networks.
 - Highly efficient for large and dense graphs.
 
-### 4. Push-Relabel Algorithm (Preflow-Push) \[Comepleted\]
+### 4. Push-Relabel Algorithm (Preflow-Push) \[Completed\]
 - Maintains a **preflow** and pushes excess flow locally.
 - Uses height labeling to guide the flow.
-- Time complexity: **O(V³)** (improved versions can achieve **O(V²√E)**).
+- Time complexity: **O(V²E)** (improved versions can achieve **O(V²√E)**).
 - Performs well in practice on dense graphs.
 
 ---
